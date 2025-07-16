@@ -88,3 +88,14 @@ Full portfolio simulation
 Export capabilities
 
 Ticker selection
+## How to run it ?
+### ✅ Requirements:
+- Python 3.8+
+- Chrome browser
+- ChromeDriver installed (same version as Chrome)
+- Libraries: `selenium`, `matplotlib`, `numpy`
+
+### ▶️ Installation:
+
+```bash
+pip install selenium matplotlib numpy
