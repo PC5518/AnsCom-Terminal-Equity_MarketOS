@@ -1,12 +1,12 @@
 # AnsCom-Terminal-MarketOS
-AnsCom Terminal is a A real-time crypto profit tracker I built from scratch using Python and data tools like matplotlib It shows live price, % return, and trend graphs — just like a custom TradingView  Terminal and Ui inspired from Bloomberg Terminal. 
+AnsCom Terminal is a A real-time Stock Market(NASDAQ:NVDA, NASDAQ:APPL, NASDAQ GOOG, NASDAQ:TSLA and many more .......) Analsysis tracker I built from scratch using Python and data tools like matplotlib It shows live price, % return, and trend graphs — just like a custom TradingView  Terminal and UI inspired from Bloomberg Terminal. 
 However, I didn’t have access to premium APIs for live crypto data or any share/stock data on NASDAQ, NYSE , OTCMKTS OR EURONEXT OR ON NSE/BSE, OR ON HKSE OR SSE .  
 So I challenged myself to find a workaround — and ended up using **Selenium** to pull live data directly from **TradingView(whose frequency is fastest)**.
 
 This allowed me to create a system that behaves like a mini trading terminal — made entirely by me.
-This project was born purely from curiosity — I wanted to go beyond just watching numbers and truly understand: how do these platforms work under the hood? How are real-time prices fetched? How are profit graphs plotted live? How do drawing tools like those in TradingView function? So I decided not to just use these tools... I wanted to build one.
+I made this project purely from curiosity — I wanted to go beyond just watching fluctuating , numbers and truly understand: how do these platforms work under the hood? How are real-time prices fetched? How are profit graphs plotted live? How do drawing tools like those in TradingView function? So I decided not to just use these tools... I wanted to build one. the greatest ADVANTAGE IS THAT I COULD ADD MANY FEATURES ON MY OWN , A SELF DEPENDENT PROGRAM ! , in case if we want to add something more......
 
-Since I didn’t have access to paid APIs, I went deep — and built a data scraper using Selenium, pulling live data directly from TradingView to track and analyze crypto movements second-by-second.
+Since I didn’t have access to paid APIs, I went deep — and built a data scraper using Selenium, pulling live data directly from TradingView.com to track and analyze crypto movements second-by-second.
 
 🧠 What drove me to build this?
 
