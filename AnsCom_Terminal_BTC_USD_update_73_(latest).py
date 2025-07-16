@@ -10,7 +10,7 @@ import numpy as np
 from datetime import datetime, timedelta
 # I Have explained everything by comments and the logic i executed
 # Number of shares
-SHARES = 1 # Number of shares to track
+SHARES = 1 # Number of shares to track (for crypto u can assume a the number of coin)
 
 # Initialize WebDriver
 driver = webdriver.Chrome()
@@ -255,9 +255,9 @@ def is_market_open():
 def update(frame):
     global prev_price, fill_positive, fill_negative
     try:
-        LIVE_UPDATE = driver.find_element(By.XPATH, "/html/body/div[2]/main/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div/div[2]/span[1]").text
-        LIVE_PRICE = driver.find_element(By.XPATH, "/html/body/div[2]/main/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div/div[1]/span[1]").text
-        LIVE_CHANGE = driver.find_element(By.XPATH, '/html/body/div[2]/main/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div/div[2]/span[2]').text
+        LIVE_UPDATE = driver.find_element(By.XPATH, "/html/body/div[2]/main/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div/div[2]/span[1]").text  # live price(intraday) by which the stock or crypto currency has changed
+        LIVE_PRICE = driver.find_element(By.XPATH, "/html/body/div[2]/main/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div/div[1]/span[1]").text   # Live price of that stock or share or coin  
+        LIVE_CHANGE = driver.find_element(By.XPATH, '/html/body/div[2]/main/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div/div[2]/span[2]').text  # precentage by which the stock or crypto currency has changed 
 
         LIVE_UPDATE = LIVE_UPDATE.replace("+", "").replace("−", "-").strip()
         price_change = float(LIVE_UPDATE.replace(",", ""))
