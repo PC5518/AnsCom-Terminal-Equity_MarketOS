@@ -14,25 +14,22 @@ Since I didn’t have access to paid APIs, I went deep — and built a data scra
 
 This wasn't about copying — it was about learning deeply through making. I wanted my hands in the code, my mind in the charts, and my curiosity driving every single feature.
 
-💡 Features
+## ⚙️ What This Terminal Can Do (Features)
 
-⚡ Real-time Live Price Fetching (via Selenium from TradingView)
+This is not just a basic graph. Here's what AnsCom Terminal actually does:
 
-📊 Profit Tracking in USD (based on number of held shares)
+- ✅ **Tracks live Bitcoin price** (BTC-USD) every second from TradingView
+- 📈 **Calculates your live profit** in dollars for the coin(s) you hold
+- 🟢 **Displays a real-time trend graph**, like those seen on Bloomberg terminals
+- 🔁 **Live percentage change**, auto-calculated and color-coded (green for up, red for down)
+- 📊 **Draw tools built-in**: pencil, line, and % measurement between two points
+- 🧠 **Smart annotations**: calculates percentage and price difference between any two clicks
+- 📅 Shows the **exact time**, **market status**, and **live trading condition**
+- 💡 Includes **SMA (Simple Moving Average)** calculation (5-step)
+- 🔥 Custom dark-mode terminal theme (my own design!) that like of Bloomberg Terminal UI
+- 🎨 Real-time filled area under the graph — green if you're in profit, red if you're in loss
+- 🖼️ Shows profit, price, percentage, SMA, and total value — all live on the screen
 
-📉 Live Trend Graph with Matplotlib, updating every second
-
-🟢 Market Status, Total Value, % Returns, Price Changes
-
-✏️ Interactive Drawing Tools like:
-
-Pencil – Freehand draw on chart
-
-Line – Draw clean support/resistance or trendlines
-
-Measure % – Select 2 points and auto-calculate % and $ change, including time difference!
-
-📌 Bloomberg-style UI
 
 Custom theming with high-contrast readability
 
@@ -40,23 +37,49 @@ Terminal-style branding ("AnsCom Terminal")
 
 🕒 Dynamic Time Axis, Live Clock, and Smooth Animation
 
-🔧 Technologies Used
+## 🧰 Technologies Used (Simple Explanation)
 
-Python
+| Tool | Why I Used It |
+|------|----------------|
+| `Selenium` | To grab live BTC price from TradingView (because no APIs were used) |
+| `Matplotlib` | To plot the live graphs and design the terminal UI |
+| `NumPy` | For profit, SMA, and % calculations |
+| `datetime` | For timestamps, market status, time difference between measurements |
+| `FancyBboxPatch` | To draw Bloomberg-style boxes around text (for branding) |
 
-Selenium (for scraping live market data)
+## 🧪 How This Actually Works (Behind the Scenes)
 
-Matplotlib (for real-time plots and interactive UI)
+Here’s what’s really happening under the hood:
 
-Numpy, Datetime, FuncAnimation, and other core libraries
+1. **Selenium WebDriver opens TradingView**
+   - It automatically opens Chrome, navigates to BTC-USD page
+   - It waits a few seconds to load
+   - Every 1 second, it grabs:
+     - Live price
+     - Price change
+     - Percentage change
 
-📌 No API? No Problem.
+2. **Your profit is calculated**
+   - Based on how many coins (`SHARES`) you hold
+   - It calculates your net profit and percent return
 
-Due to the lack of a paid API, I leveraged Selenium to simulate a browser and pull live data from TradingView — ensuring that even without API tokens, this system stays completely real-time and accurate.
+3. **Matplotlib draws everything**
+   - Each second, a new point is added to the graph
+   - The entire UI is updated live: price, SMA, percent change, etc.
+   - Fill color (green/red) appears under the graph
+   - The branding and theme are carefully chosen to mimic Bloomberg
 
-🌟 What’s next?
+4. **Interactive Tools**
+   - You can select from “Pencil”, “Line”, or “Measure %”
+   - You can click two points to instantly get:
+     - Price difference
+     - Time difference
+     - % change
+   - And yes — you can clear all drawings too 😄
 
-This is just the start. My goal is to keep improving it by adding:
+##🌟 What’s next?
+
+## This is just the start. This is underconstruction (although u can run and use the program) and I'm the only one Working here on this terminal. And I would like to add more advance things like stock prediction using machine algorithms and machine learning and Make it more advanced. And more feautures like:
 
 Advanced indicators
 
@@ -66,4 +89,4 @@ Export capabilities
 
 Ticker selection
 
-And someday... a real connection to the market.
+And soon... a real connection to the market.
