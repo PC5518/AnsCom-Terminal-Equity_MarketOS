@@ -8,7 +8,7 @@ import time
 from matplotlib.animation import FuncAnimation
 import numpy as np
 from datetime import datetime, timedelta
-
+# I Have explained everything by comments and the logic i executed
 # Number of shares
 SHARES = 1 # Number of shares to track
 
