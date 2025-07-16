@@ -79,7 +79,7 @@ Here’s what’s really happening under the hood:
 
 ##🌟 What’s next?
 
-## This is just the start. This is underconstruction (although u can run and use the program) and I'm the only one Working here on this terminal. And I would like to add more advance things like stock prediction using machine algorithms and machine learning and Make it more advanced. And more feautures like:
+## This is just the start. This is underconstruction (although u can run and use the program) and I'm the only one Working here on this terminal. And I would like to add more advance things like stock prediction using machine algorithms and machine learning , An automated chart analyzing. And and automatic order buy and sell execution in upcoming Time For both futures and options and live intraday. it's on the way to  Make it more advanced By life giving the complete access Of buy and sell command to the program . And more feautures like:
 
 Advanced indicators
 
@@ -88,5 +88,3 @@ Full portfolio simulation
 Export capabilities
 
 Ticker selection
-
-And soon... a real connection to the market.
