@@ -80,7 +80,7 @@ fig.text(0.122, 0.98, 'Terminal', transform=fig.transFigure, fontsize=brand_font
 
 line, = ax.plot([], [], label="Profit ($)", color=line_color_profit, linewidth=2.0, linestyle='-')
 
-ax.set_title(f"AT: BTC_USD LIVE TRACKING and Profit Analysis for {SHARES} coin", fontsize=18, color=text_color_primary, weight='bold', pad=25, fontname='Consolas')
+ax.set_title(f"AT: (INTRADAY)BTC_USD LIVE TRACKING and Profit Analysis for {SHARES} coin", fontsize=18, color=text_color_primary, weight='bold', pad=25, fontname='Consolas')
 ax.set_xlabel("Time", fontsize=14, color=text_color_secondary, labelpad=10)
 ax.set_ylabel("Profit ($)", fontsize=14, color=text_color_secondary, labelpad=10)
 
