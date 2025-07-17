@@ -106,8 +106,4 @@ pip install selenium matplotlib numpy
 
 
 
-# made by Aditya Narayan Singh
-# location : REPUBLIC OF INDIA
-# DATE:19th March 2025
-# code upodated: "72" times
 
