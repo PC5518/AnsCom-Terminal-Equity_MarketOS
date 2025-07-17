@@ -100,6 +100,8 @@ Ticker selection
 ```bash
 pip install selenium matplotlib numpy
 
+## HERE'S THE FINAL TERMINAL :
+<img width="1919" height="1022" alt="Screenshot 2025-07-17 034029" src="https://github.com/user-attachments/assets/7b939b79-c76d-44d1-a4c5-8168187e99fb" />
 
 
 
