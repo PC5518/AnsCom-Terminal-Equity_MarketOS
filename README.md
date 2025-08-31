@@ -2,7 +2,7 @@
 AnsCom Terminal is a A real-time Stock Market(NASDAQ:NVDA, NASDAQ:APPL, NASDAQ GOOG, NASDAQ:TSLA and many more .......) Analsysis tracker I built from scratch using Python and data tools like matplotlib It shows live price, % return, and trend graphs — just like a custom TradingView  Terminal and UI inspired from Bloomberg Terminal. 
 However, I didn’t have access to premium APIs for live crypto data or any share/stock data on NASDAQ, NYSE , OTCMKTS OR EURONEXT OR ON NSE/BSE, OR ON HKSE OR SSE .  
 So I challenged myself to find a workaround — and ended up using **Selenium** to pull live data directly from **TradingView(whose frequency is fastest)**.
-#Summary 
+##Summary 
 A real-time stock market analysis tracker built from scratch in Python. It visualizes live price, % return, and trend graphs—similar to a Bloomberg Terminal. Since I couldn’t afford paid APIs, I built a custom scraper with Selenium to pull live data directly from TradingView. This project began from curiosity: how do financial terminals really work under the hood? By coding every feature myself—from drawing tools to profit plots—I learned both the software logic and the finance concepts. The result was not just a terminal replica but a self-dependent platform I could expand with new features anytime.
 
 
