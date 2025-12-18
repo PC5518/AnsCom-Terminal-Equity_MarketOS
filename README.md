@@ -1,4 +1,4 @@
-# AnsCom-Terminal-MarketOS (Note: Advanced Version has been released in new repo)
+# AnsCom-Terminal-MarketOS (Note: THIS CAN BE ALSO USED FOR CRYPTO MARKET like BITCOIN & INDIAN/US EQUITIES)
 AnsCom Terminal is a A real-time Stock Market(NASDAQ:NVDA, NASDAQ:APPL, NASDAQ GOOG, NASDAQ:TSLA and many more .......) Analsysis tracker I built from scratch using Python and data tools like matplotlib It shows live price, % return, and trend graphs — just like a custom TradingView  Terminal and UI inspired from Bloomberg Terminal. 
 However, I didn’t have access to premium APIs for live crypto data or any share/stock data on NASDAQ, NYSE , OTCMKTS OR EURONEXT OR ON NSE/BSE, OR ON HKSE OR SSE .  
 So I challenged myself to find a workaround — and ended up using **Selenium** to pull live data directly from **TradingView(whose frequency is fastest)**.
