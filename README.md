@@ -1,4 +1,4 @@
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/0e3fd23d-b8ad-4831-acdf-c4737b23f98e" /># AnsCom-Terminal-MarketOS (Note: THIS CAN BE ALSO USED FOR CRYPTO MARKET like BITCOIN & INDIAN/US EQUITIES)
+# AnsCom-Terminal-MarketOS (Note: THIS CAN BE ALSO USED FOR CRYPTO MARKET like BITCOIN & INDIAN/US EQUITIES)
 # SYSTEM DESIGN
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/21b91b3d-2220-4d98-b584-d1043cb2e986" />
 
